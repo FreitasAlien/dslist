@@ -1,4 +1,5 @@
-
+INSERT INTO tb_game_list (name) VALUES ('Aventura e RPG');
+INSERT INTO tb_game_list (name) VALUES ('Jogos de plataforma');
 
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Mass Effect Trilogy', 4.8, 2012, 'Role-playing (RPG), Shooter', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/1.png', 'A space saga of epic proportions where choices matter.', 'The Mass Effect Trilogy follows Commander Shepard on a quest to save the galaxy from the Reapers ancient machines bent on annihilating all sentient life. Players experience immersive storytelling deep relationships and thrilling combat. Choices impact the fate of the galaxy.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Red Dead Redemption 2', 4.7, 2018, 'Role-playing (RPG), Adventure', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/2.png', 'An epic story of survival set in Americas unforgiving heartland.', 'Step into the shoes of outlaw Arthur Morgan as he grapples with the waning age of the Wild West. In an open world full of rich stories and breathtaking visuals players navigate moral choices and loyalty. This immersive world is filled with life danger and consequence.');
@@ -11,3 +12,14 @@ INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_d
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Cuphead', 4.6, 2017, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png', 'A run-and-gun game inspired by 1930s cartoons.', 'In Cuphead players face a series of boss battles in a world drawn in the style of 1930s cartoons. Known for its high difficulty and unique aesthetic the game follows Cuphead and Mugman as they attempt to repay a debt to the devil.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Sonic CD', 4, 1993, 'Platform', 'Sega CD, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png', 'Speed through time to save Little Planet from Dr. Robotnik.', 'Sonic races through levels in both the past present and future to stop Dr. Robotnik from taking over Little Planet. Featuring iconic music and fast-paced platforming this game remains a classic in the Sonic series.');
 
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 1, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 2, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 3, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 4, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 5, 4)
+
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 6, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 7, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 8, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
